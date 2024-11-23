@@ -1,9 +1,10 @@
-const CartWidget = ({saludo}) => {
-    // console.log(props)
+import { HiShoppingCart } from "react-icons/hi";
+import { Badge } from "react-bootstrap";
+const CartWidget = () => {
     return(
-        <div className="cartWidgetContainer">
-            <img src="./icons8-carrito-de-compras-64.png" alt="carrito"/>
-            <p className="cartCount">{saludo}</p>
+        <div>
+            <HiShoppingCart fontSize={'2rem'} color='green' />
+            <Badge bg="secondary">7</Badge>
         </div>
     )
 }

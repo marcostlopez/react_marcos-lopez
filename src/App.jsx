@@ -1,6 +1,7 @@
-import './App.css'
-import NavbarComponent from './components/NavbarComponent'
-import ItemListContainer from './components/ItemListContainer'
+import 'bootstrap/dist/css/bootstrap.min.css';
+import './App.css';
+import NavbarComponent from './components/NavbarComponent';
+import ItemListContainer from './components/ItemListContainer';
 function App() {
   return (
     <div>
